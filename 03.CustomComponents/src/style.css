@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 50%;
+  background-color: #282d35;
+  margin: 7.5% auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  height: 90px;
+  padding: 30px 25px;
+  background-color: #21222a;
+}
+
+.nav-title,
+.nav-project {
+  margin: 0;
+}
+
+.nav-icon {
+  height: 30px;
+  margin: 5px 10px;
+}
+
+.nav-title {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-project {
+  color: #deebf8;
+  margin-right: 10px;
+}
+
+main {
+  font-family: "Inter", sans-serif;
+  padding: 57px 27px;
+  color: white;
+  background-image: url("./img/react-logo-bg.png");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em; /* Spacing between character */
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-facts > li {
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px; /* Padding top & bottom */
+}
+
+/* Change bullet style with pseudo element*/
+/* Check MDN web docs for usage detail */
+.main-facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}

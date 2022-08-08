@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 1px solid beige;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: beige;
+}
